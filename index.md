@@ -11,17 +11,6 @@ description: Promoting Discriminative and Generative Methods for Dynamic Scene U
 **WACV 2026 Workshop / Challenge Info:** _TBA (date, venue, online link)_
 {: .text-center}
 
-[News](#news)
-[Important Dates](#dates)
-[Overview](#overview)
-[Task](#task)
-[Dataset](#dataset)
-[Evaluation](#evaluation)
-[Baseline](#baseline)
-[Awards](#awards)
-[Citations](#citations)
-[Organizers](#organizers)
-
 ---
 
 <div class="container">
