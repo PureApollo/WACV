@@ -2,6 +2,7 @@
 layout: default
 title: Large-scale 3D Semantic Occupancy Prediction on NuPlan-Occ for Autonomous Driving @ WACV 2026
 description: Promoting Discriminative and Generative Methods for Dynamic Scene Understanding
+section_nav: true
 ---
 
 :wave: Welcome to the **Large-scale 3D Semantic Occupancy Prediction Challenge** organized at :wave:
