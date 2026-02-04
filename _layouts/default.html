@@ -27,6 +27,7 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
+      {%- if page.section_nav -%}
       <a href="#news" class="btn" target="_self">News</a>
       <a href="#dates" class="btn" target="_self">Dates</a>
       <a href="#overview" class="btn" target="_self">Overview</a>
@@ -36,6 +37,8 @@
       <a href="#citations" class="btn" target="_self">Citations</a>
       <a href="#organizers" class="btn" target="_self">Organizers</a>
       <br>
+      {%- endif -%}
+
       <!--
       <a href="{{ site.baseurl }}" class="btn" target="_self" style="width:150px">Latest</a>
       <a href="{{ site.baseurl }}/wacv2023" class="btn" target="_self" style="width:150px">1. WACV 2023</a>
