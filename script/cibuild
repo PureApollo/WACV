@@ -3,7 +3,18 @@
 set -e
 
 bundle exec jekyll build
-bundle exec htmlproofer ./_site --check-html --check-sri --url-ignore '/fonts.gstatic.com/'
+
+# HTML-Proofer:
+# - Fix baseurl (/WACV) internal link checks by swapping /WACV/ -> /
+# - Disable external link checking to avoid flaky CI failures (403/SSL/DNS)
+# - Keep SRI checking enabled
+bundle exec htmlproofer ./_site \
+  --check-html \
+  --check-sri \
+  --url-swap '^/WACV/:/' \
+  --disable-external \
+  --url-ignore '/fonts\.gstatic\.com/'
+
 bundle exec rubocop -D --config .rubocop.yml
 bundle exec script/validate-html
 gem build jekyll-theme-cayman.gemspec
