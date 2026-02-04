@@ -36,14 +36,6 @@ description: Promoting Discriminative and Generative Methods for Dynamic Scene U
 
 ---
 
-## :newspaper: **News** {#news}
-
-- **TBA ---** :tada: Website is live!
-- **TBA ---** :package: NuPlan-Occ dataset release & baseline code available.
-- **TBA ---** :bar_chart: Evaluation server / leaderboard opens.
-
----
-
 ## :hourglass_flowing_sand: **Important Dates** {#dates}
 
 - **TBA ---** Challenge **Opens** (Dev / Validation)
