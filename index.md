@@ -36,16 +36,6 @@ description: Promoting Discriminative and Generative Methods for Dynamic Scene U
 
 ---
 
-## :hourglass_flowing_sand: **Important Dates** {#dates}
-
-- **TBA ---** Challenge **Opens** (Dev / Validation)
-- **TBA ---** Challenge **Opens** (Final / Test)
-- **TBA ---** Challenge Submission **Closes**
-- **TBA ---** Winner Notification
-- **TBA ---** Workshop @ **WACV 2026**
-
----
-
 ## 📌 **Overview** {#overview}
 
 Semantic occupancy prediction is a cornerstone of 3D scene understanding in autonomous driving, providing dense, voxel-level semantic and geometric representations of dynamic environments. Despite recent advances, large-scale, high-resolution occupancy datasets remain scarce, limiting the development and evaluation of robust models.
