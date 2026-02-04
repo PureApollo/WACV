@@ -151,3 +151,8 @@ Participants are encouraged to cite the following works:
   journal={arXiv preprint arXiv:2510.22973},
   year={2025}
 }
+<style>
+  footer, .site-footer, .owner {
+    display: none !important;
+  }
+</style>
